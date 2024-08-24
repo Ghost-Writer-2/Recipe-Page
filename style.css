@@ -3,6 +3,7 @@
 }
 
 .recipe-head {
+  font-size: 1.3rem;
   font-family: "Young Serif", serif;
   color: var(--stone-900);
 }
@@ -10,21 +11,22 @@
 .recipe-prep {
   background-color: var(--pink-color);
   border-radius: 7px;
-  margin-top: 20px;
+  margin-top: 2rem;
   padding: 1rem;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .instructions {
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 .recipe-prep > h3 {
+  font-family: "Outfit", sans-serif;
   color: var(--darker-pink);
 }
 
 .list-text {
   font-weight: normal;
   color: var(--stone-900);
-  margin-left: 0.6rem;
+  margin-left: 0.3rem;
 }

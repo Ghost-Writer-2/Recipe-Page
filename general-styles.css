@@ -11,10 +11,11 @@
 }
 
 * {
+  /* font-size: 1em; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   color: var(--stone-900);
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
@@ -32,6 +33,7 @@ b {
 }
 
 h3 {
+  font-family: "Young Serif", serif;
   color: var(--brown-800);
 }
 
@@ -48,7 +50,7 @@ body {
 
 main {
   background-color: white;
-  width: min(650px, 90vw);
+  width: min(650px, 100vw);
   height: auto;
   border-radius: 10px;
   padding: 1rem 2rem;
@@ -93,14 +95,15 @@ tr:nth-last-child(1) {
 /* list styles */
 ol,
 ul {
-  margin: 18px;
-  margin-top: 5px;
-  padding: 10px;
-  padding-top: 5px;
+  margin: 1.5rem;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  padding-left: 0;
+  padding-top: 0.4rem;
 }
 
 ol {
-  margin-left: 30px;
+  margin-left: 2.5rem;
 }
 
 
@@ -109,7 +112,7 @@ li::marker {
 }
 
 ul li::marker {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .recipe-prep > ul li::marker {
@@ -118,5 +121,5 @@ ul li::marker {
 
 ol li::marker {
   font-weight: 800;
-  word-spacing: 10px;
+  word-spacing: 1rem;
 }
