@@ -1,0 +1,30 @@
+.img-container {
+  text-align: center;
+}
+
+.recipe-head {
+  font-family: "Young Serif", serif;
+  color: var(--stone-900);
+}
+
+.recipe-prep {
+  background-color: var(--pink-color);
+  border-radius: 7px;
+  margin-top: 20px;
+  padding: 1rem;
+  padding-bottom: 0px;
+}
+
+.instructions {
+  margin-top: 30px;
+}
+
+.recipe-prep > h3 {
+  color: var(--darker-pink);
+}
+
+.list-text {
+  font-weight: normal;
+  color: var(--stone-900);
+  margin-left: 0.6rem;
+}
