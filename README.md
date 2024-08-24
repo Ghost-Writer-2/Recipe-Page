@@ -18,8 +18,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Ghost-Writer-2/Recipe-page/)
+- Live Site URL: [Add live site URL here](https://ghost-writer-2.github.io/Recipe-page/)
 
 ## My process
 
@@ -46,5 +46,6 @@ I still need serious Improvements on making responsive designs and improve on my
 
 ## Author
 
-- Frontend Mentor - [@ghost-writer](https://www.frontendmentor.io/profile/yourusername)
-- Discord - [@charlieee](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Ghost-writer-2](https://www.frontendmentor.io/profile/Ghost-Writer-2)
+- Discord - [@charlieee0566](https://discord.com/channels/@charlieeee0566)
+
