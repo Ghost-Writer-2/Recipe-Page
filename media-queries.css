@@ -15,6 +15,10 @@
     padding: 1rem 1rem;
   }
 
+  h3 {
+    font-size: 1rem;
+  }
+
   span {
     font-weight: 600;
     color: var(--stone-600);
@@ -23,6 +27,10 @@
   img {
     width: 100%;
     border-radius: 0;
+  }
+
+  .recipe-head {
+    font-size: 1.5rem;
   }
 
   .img-container {
@@ -48,6 +56,10 @@
     padding: 1rem 1rem;
   }
 
+  h3 {
+    font-size: 1rem;
+  }
+
   span {
     font-weight: 600;
     color: var(--stone-600);
@@ -56,6 +68,10 @@
   img {
     width: 100%;
     border-radius: 0;
+  }
+
+  .recipe-head {
+    font-size: 1.5rem;
   }
 
   .img-container {
