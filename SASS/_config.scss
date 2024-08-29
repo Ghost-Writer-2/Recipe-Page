@@ -1,0 +1,41 @@
+$pink-color: hsl(330, 100%, 98%);
+$dark-pink: hsl(332, 51%, 32%);
+$stone-900: hsl(24, 5%, 18%);
+$stone-600: hsl(30, 10%, 34%);
+$stone-150: hsl(30, 18%, 87%);
+$brown-800: hsl(14, 45%, 36%);
+
+$font-family: (
+  "small-headings": ("Outfit", sans-serif),
+  "large-headings": ("Young Serif", serif)
+);
+
+@mixin flexCenter($flex-direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $flex-direction;
+}
+
+@function chooseFont($font-type) {
+  @return map-get($font-family, $font-type);
+};
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+  color: $stone-900;
+  font-family: chooseFont("small-headings");
+}
+
+html {
+  margin-bottom: 0;
+}
+
+
+
+
+

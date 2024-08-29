@@ -1,0 +1,148 @@
+@import "config";
+@import "media-query";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+body {
+  @include flexCenter(column);
+  gap: 5vh;
+  min-height: 100vh;
+  margin-bottom: 0;
+  background-color: $pink-color;
+}
+
+main {
+  background-color: white;
+  width: 620px;
+  height: auto;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+hr {
+  height: 1px;
+  border-width: 0;
+  color: $stone-150;
+  background-color: $stone-150;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  td {
+    padding: 0.4rem;
+
+    &:nth-last-child(1) {
+      text-align: right;
+    }
+  }
+
+  tr {
+    border-bottom: 1px solid $stone-150;
+
+    &:nth-last-child(1) {
+      border: none;
+    }
+  }
+
+  & b {
+    color: $brown-800;
+  }
+}
+
+li::marker {
+  color: $brown-800;
+}
+
+ul {
+  margin: 1.5rem;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  padding-left: 0;
+  padding-top: 0.4rem;
+
+  & li::marker {
+    font-size: 0.8rem;
+
+    .recipe-prep > & {
+      color: $dark-pink;
+    }
+  }
+
+  & li:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+}
+
+ol {
+  @extend ul;
+  margin-left: 2.5rem;
+
+  & li::marker {
+    font-size: 0.9rem;
+    font-weight: 800;
+    word-spacing: 1rem;
+  }
+}
+
+p {
+  font-size: 16px;
+}
+
+b {
+  @extend p;
+  color: var(--stone-600);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: chooseFont("large-headings");
+  color: $brown-800;
+}
+
+.recipe-header__head {
+  @extend h3;
+  font-size: 2rem;
+  color: $stone-900;
+}
+
+.recipe-prep {
+  background-color: $pink-color;
+  border-radius: 7px;
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-bottom: 0;
+
+  #{&}__head {
+    color: $dark-pink;
+    font-family: chooseFont("small-headings");
+  }
+}
+
+.img-container {
+  text-align: center;
+
+  & > img {
+    width: 100%;
+  }
+}
+
+.attribution {
+  position: relative;
+  top: 100%;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center;
+
+  & a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+

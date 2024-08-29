@@ -9,7 +9,8 @@
 
   main {
     background-color: white;
-    width: min(650px, 100vw);
+    min-width: 70vw;
+    max-width: 90vw;
     height: auto;
     border-radius: none;
     padding: 1rem 1rem;
@@ -50,7 +51,8 @@
 
   main {
     background-color: white;
-    width: min(650px, 100vw);
+    min-width: 70vw;
+    max-width: 90vw;
     height: auto;
     border-radius: none;
     padding: 1rem 1rem;
@@ -79,7 +81,7 @@
     text-align: center;
   } 
   
-  .attribution {
-    display: none;
-  }
+  // .attribution {
+  //   display: none;
+  // }
 }
